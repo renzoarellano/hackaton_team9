@@ -158,7 +158,8 @@ const Cookie = process.client ? require('js-cookie') : undefined
                         .then((response)=> {
                             if(response.codigo == '1'){
                                 const auth = {
-                                dni: this.dni
+                                dni: this.dni,
+                                tipoDocumento: this.registrotipodocumento
                             }
                             console.log(auth);
                             $nuxt.$store.commit('setAuth', auth) // mutating to store for client rendering
@@ -186,7 +187,8 @@ const Cookie = process.client ? require('js-cookie') : undefined
                         .then((response)=> {
                             if(response.codigo == '1'){
                                 const auth = {
-                                dni: this.dni
+                                dni: this.dni,
+                                tipoDocumento: this.tipodocumento
                             }
                             console.log(auth);
                             $nuxt.$store.commit('setAuth', auth) // mutating to store for client rendering

@@ -592,6 +592,27 @@ a {
 }
 
 
+/*Pagos*/
+.pagostemp{
+    background: url(~assets/fondoPagos.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+.Pagorealizado{
+    background: url(~assets/fondoPagos.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    padding-top:80px;
+}
+
+.tituloGeneral{
+    color: #232323;
+    font-family: 'muli_bold';
+    font-size: 25px;
+}
+
 
 /*Responsive Querys*/
 @media (min-width:320px) {

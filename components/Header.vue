@@ -142,7 +142,7 @@ export default {
     },
     computed: {
         loggedIn() {
-            console.log(this.$store.getters.loggeIn);
+            //console.log(this.$store.getters.loggeIn);
             return this.$store.getters.loggeIn;
         },
     },
