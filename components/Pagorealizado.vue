@@ -17,7 +17,7 @@
                 </div>    
                     <div class="col-12">
                     <label for="contrasena" class="label">Correo electrónico</label>
-                    <input   type="email" class="input" data-type="password">
+                    <input   type="email" class="input" v-model="correo">
                 </div>
                 <div class="col-12">
                     <button @click="hacerConfirmacion" type="button" class="btn btn-success">CONFIRMAR</button>
@@ -37,17 +37,29 @@
 // @ is an alias to /src
 export default {
   name: "Pagorealizado",
+  data(){
+      return{
+          correo:'',
+      }
+  },
   methods:{
       hacerConfirmacion(){
-            this.$swal({
-                title:'Correo Enviado',
-                type: 'success'
-            }).then((result)=>{
-                if(result.value){
-                    $nuxt.$router.push('/pagos');
-                }
-            });
-            
+          this.$axios.$post('https://hackathonbbva-back.herokuapp.com/enviarCorreo', {
+                    'correo':this.correo,
+                    'mensaje':'Pago realizado con exito con monto: 1398 soles',       
+                }).then(result => {
+                    if(result.codigo == '1'){
+                    this.$swal({
+                        title:'Correo Enviado',
+                        type: 'success'
+                    }).then((result)=>{
+                        if(result.value){
+                            $nuxt.$router.push('/pagos');
+                        }
+                    });
+                    }
+
+                });
         }
   }
 };
