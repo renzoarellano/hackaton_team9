@@ -1,0 +1,769 @@
+@font-face{
+    font-family: 'muli_regular';
+    src: url('Muli-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'muli_light';
+    src: url('Muli-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'muli_semibold';
+    src: url('Muli-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'muli_bold';
+    src: url('Muli-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.np {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+body {
+    font-family: 'muli_regular';
+}
+
+/*--------Header-------*/
+
+.header-title {
+    font-family: 'muli_bold';
+    color: #232323;
+    font-size: 16px;
+    padding-left: 5px;
+    line-height: 46px;
+    transition:0.6s all;
+}
+
+.header-titlechange {
+    font-family: 'muli_bold';
+    color: rgba(66, 94, 179, 0.7);
+    font-size: 16px;
+    padding-left: 5px;
+    line-height: 46px;
+    transition:0.6s all;
+}
+
+
+.nav {
+    width: 100%;
+}
+
+.nav ul {
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+    width: 100%;
+    margin: 0;
+}
+
+.nav ul li {
+    text-decoration: none;
+    float: left;
+    height: 46px;
+    padding-left: 15px;
+    line-height: 46px;
+}
+
+.nav ul li a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #232323;
+    transition: 0.4s all;
+
+}
+
+.nav ul li a:hover,
+.nav ul li a:focus {
+    text-decoration: none;
+    color: rgba(66, 94, 179, 0.7);
+    font-size: 15px;
+}
+/*
+.header-color {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.4s all;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    transition: 0.4s all;
+}
+
+.headercolorc {
+    background-color: white !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 997;
+    transition: 0.6s all;
+    -webkit-box-shadow: 0px -2px 20px -2px rgba(255,29,71,0.72);
+    -moz-box-shadow: 0px -2px 20px -2px rgba(255,29,71,0.72);
+    box-shadow: 0px -2px 20px -2px rgba(255,29,71,0.72);
+}
+*/
+.btnFormEstablecimientos {
+    color: white;
+    font-family: 'muli_semibold';
+    font-size: 11px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(66, 94, 179, 0.7);
+    border-radius: 20px;
+    box-shadow: #232323;
+}
+
+.ul-spacei {
+    width: 100%;
+}
+
+.ul-spaced li {
+    float: right !important;
+}
+
+.btnFormEstablecimientos:hover,.btnFormEstablecimientos:focus{
+    text-decoration: none;
+    color: white !important;
+    font-size: 15px;
+}
+
+
+.bte1:hover .spn2
+{
+
+transition: all 0.5s;
+
+/*margin-top: 13px;
+    margin-bottom: 13px;*/
+
+}
+
+    #subheader{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 998;
+    margin-left: 6000px;
+    transition: 0.4s all;
+    }
+
+    .subnav-mobile{
+    list-style: none;
+    text-decoration: none;
+    padding: 65px 5px 25px 5px;
+    width: 100%;
+    margin: 0;
+    width: 100%;
+    height: 1200px;
+    }
+    .subnav-mobile  li {
+        text-decoration: none;
+        height: 46px;
+        padding-left: 15px;
+        line-height: 46px;
+        text-align: center
+    }
+
+    .subnav-mobile  li a {
+        font-size: 18px;
+        text-decoration: none;
+        color: #232323;
+        transition: 0.4s all;
+
+    }
+
+    .subnav-mobile  li a:hover,
+    .subnav-mobile  li a:focus {
+        text-decoration: none;
+        color: rgba(66, 94, 179, 0.7);
+        font-size: 18px;
+    }
+
+
+
+/*--------Footer-------*/
+.backgroundFooter {
+    background-color: #232323;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-redesFooter {
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+    display: block;
+
+}
+
+.nav-redesFooter li {
+    text-decoration: none;
+    float: right;
+    height: 46px;
+    padding-left: 15px;
+    line-height: 46px;
+}
+
+.copyFooter {
+    color: white;
+    font-size: 13px;
+    line-height: 45px;
+    margin: 0;
+}
+
+.color-IconF i {
+    color: white;
+    font-size: 18px;
+}
+
+.color-IconF i:hover {
+    color: rgba(66, 94, 179, 0.7);
+    font-size: 18px;
+}
+
+
+
+/*--------Inicio-------*/
+.tituloSection1{
+    color: white;
+    font-family: 'muli_bold';
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.8);
+}
+.tituloSection2{
+    color: white;
+    font-family: 'muli_semibold';
+    opacity: 0.7;
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.8);
+}
+
+
+.busquedaForm .from-group{
+    margin: 0;
+    position: relative;
+}
+
+.form-control:focus{
+    border-color:white;
+    outline: none;
+    box-shadow: 0 0 0 0.1rem rgba(255, 255, 255, 0.25);
+}
+
+.btn-busquedaForm{
+    cursor: pointer;
+    font-family: 'muli_bold', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 0 24px;
+    text-decoration: none;
+    background-color: rgba(66, 94, 179, 0.7);
+    border: 0;
+    color: #fff;
+    border-radius: 25px;
+    height: 50px;
+    margin: 9px 0 0 0;
+    display: block;
+    width: 100%;
+}
+
+.option-style option{
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.color-selected{
+    border-radius:60px !important;
+    border: #fff
+}
+
+.img-responsive{
+    padding: .25rem;
+    background-color: #fff;
+    border-radius: .25rem;
+    max-width: 100%;
+    min-height: 240px;
+    width: 100%;
+    border-radius: 40px;
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, .20), 0 10px 25px 0 rgba(0, 0, 0, .15);
+}
+.titleEstablecimientos{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.titleEstablecimiento h4 a:focus,.titleEstablecimiento h4 a:hover{
+  text-decoration: none;
+  color: #232323;
+}
+.titleEstablecimiento{
+ margin:5px 0px 0px 0px;
+}
+.direccionEstablecimiento{
+ margin:5px 0px 0px 0px;
+}
+.pad-establecimiento{
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 400px;
+    transition: 0.2s all;
+    margin-bottom: 25px;
+    outline: none;
+}
+
+.pad-establecimiento:focus, .pad-establecimiento:hover{
+    border: 2px solid rgba(66, 94, 179, 0.7);;
+    transition: 0.2s all;
+    border-radius:20px;
+}
+.opinionesEstablecimiento p{
+    font-family: 'muli_semibold',sans-serif;
+    font-size: 15px;
+    text-align: right;
+    margin-top: -22px;
+    margin-bottom: 5px;
+}
+.opinionesEstablecimiento p span{
+    font-family: 'muli_bold',sans-serif;
+    font-size: 16px;
+}
+
+.ratingEstablecimiento{
+ margin:5px 0px 0px 0px;
+}
+.ratingEstablecimiento i{
+ color: #ff1d47;
+}
+.keywordEstablecimiento{
+ margin:5px 0px 0px 0px;
+}
+.keywordEstablecimiento a{
+    inline:inline-block;
+}
+
+.padCategoria{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.padCategoria:hover,.padCategoria:focus{
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, .20), 0 10px 25px 0 rgba(0, 0, 0, .15);
+}
+.padCategoria a:focus,.padCategoria a:hover{
+    text-decoration: none;
+    color: #232323
+}
+.postitleCategoria{
+    margin-top: 15px;
+}
+.postitleCategoria h6{
+    font-family: 'muli_bold',sans-serif;
+}
+
+
+
+
+/*Inicio Sesión*/
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+.posSesion{
+    background: url('~assets/fondoInicio.jpg');
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: '';
+    display: table
+}
+
+.clearfix:after {
+    clear: both;
+    display: block
+}
+
+a {
+    color: inherit;
+    text-decoration: none
+}
+
+.login-wrapEstablecimiento {
+    width: 100%;
+    margin: auto;
+    max-width: 525px;
+    height: auto;
+    position: relative;
+    background: url(~assets/bg2.jpg);
+    
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+}
+.login-wrap {
+    width: 100%;
+    margin: auto;
+    max-width: 525px;
+    height: 1000px;
+    position: relative;
+    background: url(~assets/bg4.jpeg) no-repeat center;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+}
+
+.login-html {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 80px 70px 50px 70px;
+    background: rgba(66, 94, 179, 0.7);
+}
+
+
+.login-html .sign-in-htm,
+.login-html .sign-up-htm {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    transition: all .4s linear;
+}
+
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .group .check {
+    display: none;
+}
+
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button {
+    text-transform: uppercase;
+    outline: none;
+    
+}
+
+.login-html .sign-in:checked+.tab,
+.login-html .sign-up:checked+.tab {
+    color: #fff;
+    border-color: rgba(66, 94, 179, 0.7);;
+}
+
+.login-form {
+    min-height: 345px;
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.login-form .group {
+    margin-bottom: 15px;
+}
+
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button {
+    width: 100%;
+    color: #232323;
+    text-align: center;
+    display: block;
+    outline: none;
+}
+
+.login-form .group .input,
+.login-form .group .button {
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    outline: none;
+    background: rgba(255, 255, 255, .7);
+}
+
+.login-form .group input[data-type="password"] {
+    text-security: circle;
+    -webkit-text-security: circle;
+}
+
+.login-form .group .label {
+    color: white;
+    font-size: 12px;
+    font-family: 'muli_semibold';
+}
+
+.login-form .group .button {
+    background: rgba(66, 94, 179, 0.7);
+    color:white;
+}
+
+.login-form .group label .icon {
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    position: relative;
+    display: inline-block;
+    background: rgba(66, 94, 179, 0.7);
+}
+
+.login-form .group label .icon:before,
+.login-form .group label .icon:after {
+    content: '';
+    width: 10px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    transition: all .2s ease-in-out 0s;
+}
+
+.login-form .group label .icon:before {
+    left: 3px;
+    width: 5px;
+    bottom: 6px;
+    transform: scale(0) rotate(0);
+}
+
+.login-form .group label .icon:after {
+    top: 6px;
+    right: 0;
+    transform: scale(0) rotate(0);
+}
+
+.login-form .group .check:checked+label {
+    color: #fff;
+}
+
+.login-form .group .check:checked+label .icon {
+    background: rgba(66, 94, 179, 0.7);
+}
+
+.login-form .group .check:checked+label .icon:before {
+    transform: scale(1) rotate(45deg);
+}
+
+.login-form .group .check:checked+label .icon:after {
+    transform: scale(1) rotate(-45deg);
+}
+
+.login-html .sign-in:checked+.tab+.sign-up+.tab+.login-form .sign-in-htm {
+    transform: rotate(0);
+}
+.sign-in-htm{
+    margin-top:120px;
+}
+
+.login-html .sign-up:checked+.tab+.login-form .sign-up-htm {
+    transform: rotate(0);
+}
+
+.hr {
+    height: 2px;
+    margin: 30px 0 50px 0;
+    background: rgba(66, 94, 179, 1);
+}
+
+.foot-lnk {
+    text-align: center;
+}
+.foot-lnk label{
+    color: white;
+}
+
+
+
+
+/*Registro Establecimientos*/
+.backgroundEstablecimiento{
+    background: url(~assets/totalback_establecimiento.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 350px;
+
+}
+
+
+
+/*Responsive Querys*/
+@media (min-width:320px) {
+    /*Header*/
+    .backgroundNav {
+        background: url(~assets/topback.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        max-height: 800px;
+        min-height: 600px;
+    }
+    /*Footer*/
+    .copyFooter {
+        text-align: center;
+    }
+    /*Inicio Sesión*/
+    .login-html {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        padding: 40px 20px 10px 20px;
+        background: rgba(66, 94, 179, 0.7);
+;
+    }
+
+    .login-html .tab {
+        font-size: 16px;
+        margin-right: 15px;
+        padding-bottom: 5px;
+        font-family: 'muli_bold';
+        margin: 0 15px 10px 0;
+        display: inline-block;
+        border-bottom: 2px solid transparent;
+    }
+
+    /*Inicio*/
+    .buscadorInicio{
+        padding-top: 90px;
+    }
+    .busquedaForm div{
+        display: block;
+        flex-direction: row;
+        height: 68px !important;
+        width: 100%;
+    }
+
+    .form-control{
+        border: 0 !important;
+        border-radius: 34px !important;
+        height: 68px !important;
+        line-height: 68px !important;
+        padding: 1px 20px !important;
+        margin-left: 5px;
+        margin: auto;
+        max-width: 420px;
+    }
+    .formPosition{
+        margin-top: 20px;
+    }
+
+    .titleEstablecimientos h1{
+        font-family: 'muli_bold',sans-serif;
+        text-align: center;
+        font-size: 2.0rem;
+    }
+
+    .backgroundEstablecimientos{
+      background-image: url(~assets/back_establecimientos.jpg);
+      height: 320px;
+      background-size: cover;
+      width: 100%;
+      background-repeat: no-repeat;
+    }
+
+    .posSesion {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+
+
+@media (min-width:768px) {
+    /*Header*/
+    .backgroundNav {
+        background: url(~assets/topback.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        max-height: 800px;
+        min-height: 600px;
+    }
+
+    /*Footer*/
+
+    .copyFooter {
+        text-align: left;
+    }
+
+    /*Inicio Sesión*/
+
+    .login-html {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        padding: 80px 70px 50px 70px;
+        background: rgba(66, 94, 179, 0.7);
+
+    }
+
+    .login-html .tab {
+        font-size: 22px;
+        margin-right: 15px;
+        padding-bottom: 5px;
+        font-family: 'muli_bold';
+        margin: 0 15px 10px 0;
+        display: inline-block;
+        border-bottom: 2px solid transparent;
+    }
+
+    /*Inicio*/
+    .buscadorInicio{
+        padding-top: 150px;
+    }
+
+    .titleEstablecimientos h1{
+        font-family: 'muli_bold',sans-serif;
+        text-align: center;
+    }
+
+    .titleEstablecimiento h4 a{
+        font-family: 'muli_bold',sans-serif;
+        text-align: center;
+    }
+
+    .backgroundEstablecimientos{
+      height: 450px;
+    }
+
+    .posSesion {
+        padding-top: 150px;
+        padding-bottom: 120px;
+    }
+
+
+
+}
+@media (min-width: 992px){
+
+    /*Inicio*/
+    .busquedaForm div{
+        display: flex;
+        flex-direction: row;
+        height: 68px !important;
+        width: 100%;
+    }
+
+    .form-control{
+        border: 0 !important;
+        border-radius: 34px !important;
+        height: 68px !important;
+        line-height: 68px;
+        padding: 1px 20px !important;
+        margin-left: 5px;
+        margin: 0 0 0 6px;
+    }
+    .formPosition{
+        margin-top: 45px;
+    }
+
+
+}
