@@ -1,6 +1,14 @@
-# hackathon_team9
+# HACKATHON - TEAM 9 
 
-> My mind-blowing Nuxt.js project
+#### Proyecto diseño y programado por mi persona para la hackaton organizada por el BBVA
+##### Tema: Solución para el pago de servicios tales como agua, luz, teléfono, etc. de manera más facil y sencilla
+
+> Técnologías utilizadas:
+* VueJS
+* Framework Nuxt 
+* CSS3
+* HTML
+* Axios
 
 ## Build Setup
 
@@ -19,4 +27,4 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+
