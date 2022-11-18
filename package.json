@@ -20,7 +20,7 @@
     "express": "^4.16.4",
     "js-cookie": "^2.2.0",
     "jsonwebtoken": "^8.5.1",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.8",
     "vue-jwt-decode": "^0.1.0",
     "vue-sweetalert2": "^2.1.1"
   },
